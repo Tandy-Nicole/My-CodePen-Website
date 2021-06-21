@@ -1,0 +1,129 @@
+ body {
+  background-color: #DEB887;
+  font-family: Georgia;
+}
+
+.logo-image {
+ width: 100px;
+}
+
+#header {
+  background-color: #DEB887;
+  position: fixed;
+  top: 5px;
+  min-height: 77px;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+  @media (max-width: 568px) {
+      flex-wrap: wrap;
+ }
+
+h1 {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 50pt;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li {
+  margin-right: 30px;
+  list-style: none;
+  text-decoration: none;
+  display: inline;
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  font-size: 1.2em;
+ }
+
+.my-story {
+  height: 600px;
+  background-image: url('https://www.aubreybay.co.uk/wp-content/uploads/2019/12/Reasons-to-Choose-Soy-Wax-Candles.jpg');
+}
+aside {
+  width: 50%;
+  pardin-left: 100x;
+  margin-left: 100px;
+  float: right;
+}
+
+.sign-up-page {
+  height: 600px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  }
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 127px;
+  margin-bottom: 23px;
+  
+  h2 {
+    margin-bottom: 7px;
+  }
+  p {
+    font-size: 19px;
+}
+
+.video-page {
+ height: 500px;
+ display: flex;
+ justify-content: center;
+ align-content: center;
+}
+
+.video {
+  text-align:center;  
+}
+  @media only screen and (max-width: 600px) {
+  nav-bar {
+  display:none;
+  height: 300px;
+   }
+  }
+  
+ .white-candle {
+  width: 300px;     
+   }
+ .column {
+  float: left;
+  width: 33.33%;
+  padding: 150px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+    
+.footer {
+ margin: auto;
+ text-align: center;
+ margin-bottom: 2px;
+ background-color: #DEB887;
+}
+
+  
+
+                 
